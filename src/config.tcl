@@ -81,7 +81,7 @@ set ::env(DECAP_CELL) "\
 set ::env(RUN_CTS) 1
 set ::env(CLOCK_PORT) "ui_in\\\[0\\\]"
 # Custom SDC file for STA - includes the clock port below
-set ::env(BASE_SDC_FILE) [glob $::env(DESIGN_DIR)/sdc/tt_um_hsc_tdc.sdc]
+set ::env(BASE_SDC_FILE) [glob $::env(DESIGN_DIR)/sdc/tt_ri_tdc.sdc]
 
 # Don't use power rings or met5 layer
 set ::env(DESIGN_IS_CORE) 0
