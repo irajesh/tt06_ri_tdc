@@ -4,8 +4,8 @@ CORNER        ?= nom
 OC            ?= Slowest
 SDF_TIMING    ?= typ
 FIXED_PDK_DIR ?= $(HOME)/pdk_sim_files/verilog/cvc-pdk
-SDF_RENAMED   ?= "./sdf_renamed_out/multicorner/$(CORNER)/tt_um_hsc_tdc.$(OC).sdf"
-GLN_RENAMED   ?= ./gln_renamed_out/tt_um_hsc_tdc.v
+SDF_RENAMED   ?= "./sdf_renamed_out/multicorner/$(CORNER)/tt_um_ri_tdc.$(OC).sdf"
+GLN_RENAMED   ?= ./gln_renamed_out/tt_um_ri_tdc.v
 SIM           ?= icarus
 GATES         ?= no
 
@@ -13,7 +13,7 @@ GATES         ?= no
 SKYWATER_STD_CELL_FIXED =  $(PWD)/skywater_stdcell_fixed
 
 PROJECT_SOURCES = \
-    tt_um_hsc_tdc.sv \
+    tt_um_ri_tdc.sv \
     tdc/tdc_top.sv \
     tdc/delay_line/tdc_delay_line.sv \
     tdc/delay_line/rca.sv \
