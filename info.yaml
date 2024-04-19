@@ -1,7 +1,7 @@
 # Tiny Tapeout project information - HSCTDC_FA2
 project:
   title:        "UCSC HW Systems Collective, TDC"
-  author:       "Tyler Sheaves, Phillip Marlowe, & Dustin Richmond"
+  author:       "Tyler Sheaves, Phillip Marlowe, & Dustin Richmond (made copy from repo)"
   discord:      "tsheaves"
   description:  "A tiny TDC constructed entirely of standard cells. Skywater130 FA-2 delay element"
   language:     "SystemVerilog"                                                          
@@ -9,10 +9,10 @@ project:
 
   tiles: "1x2"
 
-  top_module:  "tt_um_hsc_tdc"
+  top_module:  "tt_ri_tdc"
 
   source_files:
-    - "tt_um_hsc_tdc.sv"
+    - "tt_ri_tdc.sv"
     - "tdc/tdc_top.sv"
     - "tdc/pulse_gen/tdc_pg.sv"
     - "tdc/delay_line/tdc_delay_line.sv"
